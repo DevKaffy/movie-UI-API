@@ -124,6 +124,7 @@ button {
   position: relative;
   display: flex;
   flex-direction: column;
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.5);
 }
 
 .movie-card-img {
