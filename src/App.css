@@ -66,13 +66,13 @@ nav {
   /* align-items: center; */
 }
 .welcome {
-  color: #0093be;
+  color: white;
   font-size: 3rem;
   font-weight: bolder;
   /* margin-bottom: .5rem; */
 }
 .subtitle {
-  color: #0093be;
+  color: white;
   font-weight: 600;
   font-size: 2rem;
 }
@@ -108,13 +108,14 @@ button {
 /*Movie list*/
 
 .movie-list {
-  height: 50vh;
+  /* height: 50vh; */
   /* overflow: auto; */
   /* background: white; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 2rem;
   gap: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 /* Moviecard */
